@@ -33,3 +33,51 @@ cargo generate是一个用于生成项目模版的工具。它可以使用已有
 ```sh
 cargo install cargo-generate
 ```
+
+## 新建项目
+
+```bash
+cargo generate rust-dev-learn/template
+```
+
+### 安装pre-commit
+
+pre-commit是一个代码检查工具，可以在提交代码前进行代码检查。
+
+```sh
+pip install pre-commit
+```
+
+安装成功后，运行`pre-commit install`即可。
+
+### 安装cargo deny工具
+
+cargo deny是一个cargo插件，用于检查依赖的安全性。
+
+```sh
+cargo install --locked cargo-deny
+```
+
+### 安装typos
+
+typos是一个拼写检查工具。
+
+```sh
+cargo install typos-cli
+```
+
+### 安装git cliff
+
+git cliff是一个生成changelog的工具。
+
+```sh
+cargo install git-cliff
+```
+
+### 安装cargo nextest
+
+cargo nextest是一个Rust的增强测试工具。
+
+```sh
+cargo install cargo-nextest --locked
+```
