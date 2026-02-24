@@ -1,11 +1,5 @@
 # Rust项目工程模版
 
-## 新建项目
-
-```bash
-cargo generate billchen-818/template
-```
-
 ## 提交初始化项目
 
 ```bash
@@ -31,3 +25,11 @@ git commit -a
 - TODO Highlight: TODO 高亮
 - vscode-icons: 图标优化
 - YAML: YAML 文件支持
+
+## 安装cargo generate
+
+cargo generate是一个用于生成项目模版的工具。它可以使用已有的github repo作为模版，生成新的项目。
+
+```sh
+cargo install cargo-generate
+```
